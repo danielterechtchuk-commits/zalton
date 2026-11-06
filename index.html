@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site da Empresa Nova</title>
+    <!-- CSS do Bootstrap -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Minha Empresa</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CARROSSEL DE IMAGENS -->
+    <div id="home" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.coca-cola.com/content/dam/onexp/br/pt/history/sem-ano/botlers-page-truck-workers-mid-page-image.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- SEÇÃO SOBRE (TEXTO NA ESQUERDA, IMAGEM NA DIREITA) -->
+    <div id="sobre" class="container my-5">
+        <div class="row">
+            <div class="col-6">
+                <h2>Sobre a Nossa Empresa</h2>
+                <p>A Coca-Cola (a bebida) foi criada em 8 de maio de 1886, em Atlanta, na Geórgia (Estados Unidos), pelo farmacêutico John Stith Pemberton, que a desenvolveu originalmente como um xarope medicinal.
+Já a The Coca-Cola Company (a empresa corporativa) foi oficialmente fundada em 1892 em Atlanta, nos Estados Unidos, pelo empresario Asa Griggs Candler, que adquiriu os direitos da fórmula de Pemberton.Principais marcos:1886: A primeira Coca-Cola é servida na Jacob's Pharmacy em Atlanta.1887-1892: Asa Griggs Candler compra a fórmula e estrutura o negócio que daria origem à corporação em 1892. Presença global: Hoje, a empresa opera em mais de 200 países e detém centenas de marcas de bebidas.</p>
+                <button class="btn btn-primary">Saber mais</button>
+            </div>
+            <div class="col-6">
+                <img src="https://statics.otvfoco.com.br/2023/07/Poa-24-H-reprod-148-fotor-20230710153218-e1689014018406.jpg" class="img-fluid" alt="Imagem Sobre">
+            </div>
+        </div>
+    </div>
+
+    <!-- SEÇÃO SERVIÇOS (CARDS) -->
+    <div id="servicos" class="container my-5">
+        <h2 class="text-center mb-4">Como uma das maiores corporações de bebidas do mundo, a The Coca-Cola Company não vende serviços diretos ao consumidor final (B2C), mas opera um complexo ecossistema de serviços corporativos, comerciais e logísticos (B2B) para viabilizar que seus produtos cheguem a milhões de pontos de venda diariamente.
+A atuação da empresa é dividida em pilares estratégicos de suporte, distribuição e marketing:</h2>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Gestão e licenciamento de marcas</h5>
+                        <p class="card-text">• A empresa atua como detentora global das marcas (como Coca-Cola, Fanta, Sprite, Schweppes, Powerade, Leão, Del Valle). Ela gerencia o posicionamento de mercado e licencia o direito de uso dessas marcas para os fabricantes locais..</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Produção e venda de concentrados (Xarope)</h5>
+                        <p class="card-text">• O principal "serviço" de manufatura da matriz é produzir o concentrado base (o xarope secreto) e vendê-lo exclusivamente para as franquias de engarrafamento autorizadas (como a Coca-Cola Femsa e a Andina no Brasil).</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Consultoria e suporte aos engarrafadores</h5>
+                        <p class="card-text">• A corporação oferece suporte técnico, auditorias de controle de qualidade rigorosas e consultoria de eficiência operacional para que o padrão da bebida seja exatamente o mesmo em qualquer lugar do mundo..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SEÇÃO OUTRA DE TEXTO (IMAGEM NA ESQUERDA, TEXTO NA DIREITA - INVERTIDA) -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-6">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-OJzgovlpT-eipAKbROotClZvVG3bM69N8I256lxN4XM25e5_" class="img-fluid" alt="Imagem Sobre Invertida">
+            </div>
+            <div class="col-6">
+                <h2>Como Trabalhamos</h2>
+                <p>Para entender como a Coca-Cola trabalha, o grande segredo é saber que ela funciona como uma espécie de franquia global hiperconectada. Chamamos essa estrutura de Sistema Coca-Cola.
+A matriz americana (The Coca-Cola Company) não fabrica nem distribui a maioria das bebidas que você compra no supermercado. O trabalho pesado e os investimentos bilionários em fábricas e caminhões são divididos com parceiros locais..</p>
+                <button class="btn btn-success">
+Média de Preços da Coca-Cola no Brasil
+
+• Lata (350 ml): R$ 3,50 a R$ 5,00 nos supermercados. Em bares, lanchonetes ou aplicativos de delivery, esse valor costuma subir para a faixa de R$ 6,00 a R$ 8,00.
+• Garrafa Pet (600 ml): R$ 5,50 a R$ 7,50. É o formato individual mais comum para consumo imediato na rua.
+• Garrafa Pet (2 Litros): R$ 8,50 a R$ 11,00. É a embalagem de maior giro para famílias e refeições.
+• Garrafa de Vidro Retornável (1 Litro): R$ 4,50 a R$ 6,00 (valor apenas do líquido, entregando outra garrafa vazia na troca). É a opção de melhor custo-benefício por litro.
+</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SEÇÃO CONTATO, INFORMAÇÕES E MAPA -->
+    <div id="contato" class="container my-5">
+        <h2 class="mb-4">Contato</h2>
+        <div class="row">
+            <!-- Formulário -->
+            <div class="col-6">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Nome:</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email:</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Telefone:</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mensagem:</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            <!-- Informações e Mapa -->
+            <div class="col-6">
+                <h4>Informações da Empresa</h4>
+                <p><strong>Endereço:</strong> Endereço: Praia de Botafogo, nº 374 - Botafogo, Rio de Janeiro - RJ, CEP 22250-040</p>
+                <p><strong>Telefone:</strong> Telefone: 0800-021-2121 (Serviço de Atendimento ao Consumidor - SAC)</p>
+                <p><strong>WhatsApp:</strong>  (11) 98964-9773 (Suporte Kora / Relacionamento Coca-Cola FEMSA)</p>
+                
+                <h5 class="mt-4">Nossa Localização:</h5>
+                <!-- Mapa do Google básico -->
+                <iframe src="https://appassets.mvtdev.com/map/131/s/942/27562244.webp" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS do Bootstrap (Necessário para o carrossel funcionar) -->
+    <script src="https://jsdelivr.net"></script>
+</body>
+</html>
